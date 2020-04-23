@@ -1,0 +1,76 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    background: snow;
+}
+
+svg {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%
+}
+
+.svg {
+    height: 100%;
+    width: 80%;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    height: 100%
+}
+
+ellipse {
+    stroke: black;
+    stroke-width: 1;
+    fill: aliceblue;
+}
+
+rect {
+    stroke: grey;
+    stroke-width: 3;
+    fill: aliceblue;
+}
+
+text {
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
+
+.menu {
+    width: 10%;
+    height: 100%;
+    min-width: 130px;
+}
+
+.menu.menu-esquerda {
+    border-right: 1px red;
+}
+
+.menu.menu-esquerda {
+    border-left: 1px red;
+}
+
+.caixa {
+    cursor: pointer;
+}
+
+line {
+    stroke: black;
+    stroke-width: 2px;
+}
+
+path {
+    stroke: grey;
+    stroke-width: 3;
+    fill: aliceblue;
+}
+
+.novo-texto, .nova-caixa {
+    cursor:pointer;
+}
